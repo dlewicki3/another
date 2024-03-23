@@ -66,7 +66,6 @@ align-items: center;
     align-items: center;
     display: flex;
     justify-content: center;
-
 }
 .icon
 {
@@ -89,14 +88,8 @@ width: 300px;
 position: absolute;
     background-color: rgb(175, 173, 173);
 margin-top: 300px;
-filter: blur(200px);
-  
+filter: blur(200px); 
 }
-
-
-
-
-
 @media only screen and (max-width: 1100px) {
 .k1
 {
@@ -123,10 +116,7 @@ filter: blur(200px);
 {
     height: 50%;
 }
-
-
 }
-
 @media (min-height:400px) and (max-height: 800px) {
     .o1
     {
@@ -141,8 +131,6 @@ filter: blur(200px);
         width: 150px;
         height: 150px;
     }
-
-
 }
 @media only screen and (max-width: 510px) {
 
@@ -165,10 +153,8 @@ width: 90%;
     }
     .k1
     {
-
         height: 100dvh;
-        justify-content: space-between;
-        
+        justify-content: space-between;   
     }
     .btn1
     {

@@ -7,8 +7,6 @@ const O1 = () => {
   return (
    <div className="o1">
     <div className="k1">
-
-
       <div className="top1">
 <p className='big-txt1'>Your
 <span className='span-edit'>AI</span> 
