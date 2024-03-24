@@ -2,12 +2,12 @@
 {
     width: 100%;
     max-height: 120dvh;
-    height: 100dvh;
+    height: 120dvh;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    background-color: grey;
+    background-color: darkgray;
 
 }
 .k1
