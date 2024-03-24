@@ -1,12 +1,13 @@
 .o1
 {
     width: 100%;
-min-height: 125dvh;
+    max-height: 120dvh;
+    height: 120dvh;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    overflow-x: hidden;
+
 }
 .k1
 {

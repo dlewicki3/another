@@ -5,6 +5,8 @@ body
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif;
- 
+ height: 95dvh;
+ max-height: 95dvh;
 
 }
+/* app.css */
