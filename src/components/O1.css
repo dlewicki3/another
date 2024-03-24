@@ -1,8 +1,8 @@
 .o1
 {
     width: 100%;
-    max-height: 120dvh;
-    height: 120dvh;
+    max-height: 200dvh;
+    height: 200dvh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,11 +151,11 @@ width: 90%;
     }
     .o1
     {
-        height: 110dvh;
+        height: 200dvh;
     }
     .k1
     {
-        height: 100dvh;
+        height: 180dvh;
         justify-content: space-between;   
     }
     .btn1
