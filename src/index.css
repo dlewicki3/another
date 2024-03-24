@@ -15,8 +15,8 @@ body
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
-  overflow-y: auto; /* Zmiana właściwości */
-
+  height: 1000dvh;
+  max-height: 1000dvh;
  
 
 }
