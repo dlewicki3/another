@@ -1,12 +1,12 @@
 body
 {
-    background-color: #0f0f0f;
+    background-color:red;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif;
- height: 95dvh;
- max-height: 95dvh;
+ height: 100dvh;
+ max-height: 100dvh;
 
 }
 /* app.css */
