@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    background-color: darkgray;
+  background-color: #0f0f0f;
 
 }
 .k1
@@ -89,7 +89,7 @@ height: 300px;
 width: 300px;
 position: absolute;
     background-color: rgb(175, 173, 173);
-margin-top: 300px;
+margin-top:0px;
 filter: blur(200px); 
 }
 @media only screen and (max-width: 1100px) {
@@ -122,11 +122,11 @@ filter: blur(200px);
 @media (min-height:400px) and (max-height: 800px) {
     .o1
     {
-        height: 150dvh;
+        height: 160dvh;
     }
     .k1
     {
-        height: 130dvh;
+        height: 120dvh;
     }
     .absolute1
     {
