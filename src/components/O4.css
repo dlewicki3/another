@@ -230,7 +230,7 @@ flex-direction: column;
 .top44
 {
 
-    height: 50%;
+    height: 40%;
 }
 .bottom44
 {
@@ -268,5 +268,9 @@ width: 100%;
 .small-txt4
 {
     font-size: 15px;
+}
+.top44
+{
+    padding-top:60px;
 }
 }
