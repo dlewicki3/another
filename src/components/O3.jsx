@@ -6,6 +6,7 @@ import { BsLightning } from "react-icons/bs";
 import Foto1 from "./Foto1.png"
 import Foto2 from "./Foto2.png"
 import Foto3 from "./Foto3.png"
+
 const O3 = () => {
   return (
 <div className="o3">
@@ -16,8 +17,6 @@ const O3 = () => {
 </div>
 <div className="main3">
     <div className="top3">
-    
-     
         <div className="left33">
             <p className="big-txt333">Lorem, ipsum dolor.</p>
             <p className='small-txt333'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, aliquam.</p>
@@ -29,8 +28,7 @@ const O3 = () => {
     <div className="middle3">
         <div className="left3">
             <div className="top33">
-            <p className="big-txt333">Ask in your own words...
-</p>
+            <p className="big-txt333">Ask in your own words...</p>
             <p className='small-txt333'>Ask Gems like how you’d ask a friend. It’s fast and feels truly effortless.</p>
             </div>
             <img className='foto33' src = {Foto2}></img>
@@ -58,7 +56,6 @@ const O3 = () => {
         </div>
     </div>
 </div>
-
     </div>
 </div>
   )
