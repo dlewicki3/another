@@ -183,6 +183,10 @@ justify-content: center;
     align-items:flex-end;
     justify-content: flex-end;
 }
+.k4
+{
+    height: 80%;
+}
 .left4
 {
    display: none;

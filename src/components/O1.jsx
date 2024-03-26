@@ -1,6 +1,6 @@
 import React from 'react';
 import './O1.css';
-import { ReactTyped } from "react-typed";
+// import { ReactTyped } from "react-typed";
 import { FaArrowRight } from "react-icons/fa6";
 import Komp1 from './Komp1.png';
 
@@ -11,8 +11,8 @@ const O1 = () => {
         <div className="top1">
           <p className='big-txt1'>
             Your <span className='span-edit'>AI</span> knowledge<br></br> 
-            <ReactTyped strings={['Friend', 'Specialist', 'Teacher']} 
-              typeSpeed={80} backSpeed={100} loop className='type' />
+            {/* <ReactTyped strings={['Friend', 'Specialist', 'Teacher']} 
+              typeSpeed={80} backSpeed={100} loop className='type' /> */}
           </p>
           <p className='small-txt1'>
             Get ready-to-use answers from all your knowledge<br></br> 
