@@ -18,6 +18,4 @@ body
   overflow-y: auto; /* Zmiana właściwości */
 height: 100vh;
 max-height: 100vh;
-overflow: visible;
-
 }

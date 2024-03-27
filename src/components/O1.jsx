@@ -37,7 +37,7 @@ const O1 = () => {
       </div>
       {showDiv && (
         <div className="wrapper-bg">
-          <motion.div className="show" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.3 }} exit={{ opacity: 0 }}>
+          <motion.div className="show" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
             <div className="close" onClick={handleClose}>
               <IoMdClose />
             </div>
