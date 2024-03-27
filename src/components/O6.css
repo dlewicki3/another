@@ -1,0 +1,88 @@
+.o6
+{
+    width: 100%;
+    max-height: 100dvh;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   background-color: #0f0f0f; 
+   flex-direction: column;
+}
+.k6
+{
+    width: 100%;
+    max-width: 1200px;
+    height: 80dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.kwa6
+{
+    width: 130px;
+    height: 130px;
+    background-image: linear-gradient(90deg, #171717, #161616);
+    border: 0.5px solid rgb(22, 19, 19);
+    border-radius: 40px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: white;
+    font-size: 60px;
+    z-index: 99;
+    box-shadow: 0 0 94px 210px rgba(57,57,57,.1), 0 0 49px 2px rgba(0,0,0,.6), 0 0 74px 62px rgba(57,57,57,.25);
+}
+
+.big-txt6
+{
+    font-size: 48px;
+    text-align: center;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    background-image: radial-gradient(circle, rgba(255, 255, 255, .9), rgba(255, 255, 255, .45));
+line-height: 1.1;
+    background-clip: text;
+    margin-top: 30px;
+}
+.btn6
+{
+    color: #eeece7;
+    letter-spacing: .04em;
+    background-image: linear-gradient(90deg, #171717, #161616);
+    border-radius: 8px;
+    padding: 8px 16px;
+    margin-top: 30px;
+    font-size: 13px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid #565a5e;
+}
+.cienki
+{
+    height: 1px;
+    width: 100%;
+    max-width: 1100px;
+    background-image: radial-gradient(circle closest-corner, #565a5e, rgba(39, 41, 43, .76));
+}
+@media (min-height:400px) and (max-height: 800px) {
+.o6
+{
+    max-height: 70dvh;
+    height: 70dvh;
+    background-color: green;
+}
+.k6
+{
+    background-color: orangered;
+    height: 90%;
+}
+}
+@media only screen and (max-width:470px) {
+.big-txt6{
+    font-size: 37px;
+}
+}

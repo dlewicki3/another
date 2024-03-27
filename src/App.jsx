@@ -5,6 +5,7 @@ import O2 from "./components/O2.jsx";
 import O3 from "./components/O3.jsx";
 import O4 from "./components/O4.jsx";
 import O5 from "./components/O5.jsx";
+import O6 from "./components/O6.jsx";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
      <O3/>
      <O4/>
      <O5/>
+     <O6/>
     </body>
   );
 }
