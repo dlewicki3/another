@@ -1,10 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './O1.css';
-// import { ReactTyped } from "react-typed";
+import { motion } from 'framer-motion'; // Assuming you're using Framer Motion for animations
 import { FaArrowRight } from "react-icons/fa6";
 import Komp1 from './Komp1.png';
+import { IoMdClose } from "react-icons/io";
 
 const O1 = () => {
+  const [showDiv, setShowDiv] = useState(false);
+
+  const handleClick = () => {
+    setShowDiv(true);
+  };
+
+  const handleClose = () => {
+    setShowDiv(false);
+  };
+
   return (
     <div className="o1">
       <div className="k1">
@@ -18,12 +29,21 @@ const O1 = () => {
             Get ready-to-use answers from all your knowledge<br></br> 
             and quit manual organization for good.
           </p>
-          <button className='btn1'>JOIN TO THE WAITLIST <FaArrowRight /></button>
+          <button className='btn1' onClick={handleClick}>JOIN TO THE WAITLIST <FaArrowRight /></button>
         </div>
         <div className="komp">
           <img className='icon' src={Komp1} alt="icon" />
         </div>
       </div>
+      {showDiv && (
+        <div className="wrapper-bg">
+          <motion.div className="show" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.3 }} exit={{ opacity: 0 }}>
+            <div className="close" onClick={handleClose}>
+              <IoMdClose />
+            </div>
+          </motion.div>
+        </div>
+      )}
       <div className="absolute1">efwefew</div>
     </div>
   );
