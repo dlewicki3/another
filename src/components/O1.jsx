@@ -51,14 +51,14 @@ const O1 = () => {
             <div className="show-kwa6">
               <FaStar />
             </div>
-            <p className='bigger-txt6'>If you're ...</p>
+            <p className='bigger-txt6'>Join the waitlist</p>
             <p className='small-txt6'>
-              a beautiful girl with brown hair,<br></br> enter your number here, I will<br></br> call you tommorow
+            We are currently in private beta.<br></br> Leave your email to get notified<br></br> once we launch publicly.
             </p>
             <input
               ref={inputRef}
               className='input-holder'
-              placeholder='Enter your number :)'
+              placeholder='Enter your email :)'
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
             />
