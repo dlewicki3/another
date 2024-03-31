@@ -5,6 +5,8 @@ import { FaArrowRight } from "react-icons/fa6";
 import Komp1 from './Komp1.png';
 import { IoMdClose } from "react-icons/io";
 import { FaStar } from "react-icons/fa";
+import { ReactTyped } from "react-typed";
+
 const O1 = () => {
   const [showDiv, setShowDiv] = useState(false);
   const [inputValue, setInputValue] = useState('');
@@ -28,15 +30,16 @@ const O1 = () => {
       <div className="k1">
         <div className="top1">
           <p className='big-txt1'>
-            Your <span className='span-edit'>AI</span> knowledge assistant
-            {/* <ReactTyped strings={['Friend', 'Specialist', 'Teacher']} 
-              typeSpeed={80} backSpeed={100} loop className='type' /> */}
+            Your <span className='span-edit'>AI</span> knowledge
+        
+            <ReactTyped strings={['Friend', 'Specialist', 'Teacher']} 
+              typeSpeed={80} backSpeed={100} loop className='type' style ={{marginLeft:"5px"}}/>
           </p>
           <p className='small-txt1'>
             Get ready-to-use answers from all your knowledge<br></br> 
             and quit manual organization for good.
           </p>
-          <button className='btn1' onClick={handleClick}>CLICK <FaArrowRight /></button>
+          <button className='btn1' onClick={handleClick}>JOIN THE WAITLIST <FaArrowRight /></button>
         </div>
         <div className="komp">
           <img className='icon' src={Komp1} alt="icon" />
